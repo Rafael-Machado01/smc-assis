@@ -1,0 +1,8 @@
+{
+  "singleQuote": false, // Aspas duplas
+  "semi": true, // Ponto e vírgula
+  "tabWidth": 2, // Espaços de indentação
+  "trailingComma": "es5", // Coloque virgula em objetos
+  "printWidth": 80, // Evita linhas gigantes de código
+  "endOfLine": "lf" // Quebra de linha padrão
+}
