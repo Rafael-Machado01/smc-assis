@@ -1,6 +1,7 @@
 import '@/app/globals.css'
 import {ThemeProvider} from "next-themes";
 import Header from "@/app/components/Header";
+import Footer from "@/app/components/Footer";
 
 
 export default function RootLayout({
@@ -14,7 +15,7 @@ export default function RootLayout({
     <ThemeProvider defaultTheme='system' attribute='class' enableSystem={true} >
       <Header/>
       {children}
-      {/*Footer */}
+      <Footer/>
     </ThemeProvider>
 
     </body>
