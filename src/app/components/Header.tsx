@@ -7,9 +7,7 @@ import {useEffect,useState} from "react";
 import Link from "next/link";
 import {usePathname} from "next/navigation";
 import {headerMenuLinks} from '@/app/constants/header-menu-links'
-
-const hoverButtonsMenu = "hover:text-blue-700 dark:hover:text-blue-400 transition-colors cursor-pointer duration-300"
-const linksOnMenu = 'text-lg py-2 px-4'
+import {tailwindStyles} from "@/app/constants/styles/tailwind"
 
 export default function Header() {
 
@@ -43,11 +41,11 @@ export default function Header() {
 
         <div className="flex items-center gap-4">
 
-          <button className={hoverButtonsMenu} onClick={changeTheme}>
+          <button className={tailwindStyles.hoverHeaderLinks} onClick={changeTheme}>
              {resolvedTheme === "dark" ? <SunIcon size={26}/> : <MoonIcon size={26}/> }
           </button>
 
-          <button  className={hoverButtonsMenu} onClick={toggleMenu}>
+          <button  className={tailwindStyles.hoverHeaderLinks} onClick={toggleMenu}>
             {menu ? <XIcon size={26}/> : <ListIcon size={26}/>}
           </button>
         </div>
@@ -61,7 +59,7 @@ export default function Header() {
             {headerMenuLinks.map((link) => (
               <Link key={link.href}
                     href={link.href}
-                    className={`${pathname === link.href ? "text-blue-500" : ""} ${linksOnMenu}  ${hoverButtonsMenu}`}
+                    className={`${pathname === link.href ? "text-blue-500" : ""} ${tailwindStyles.linksHeaderMenu}  ${tailwindStyles.hoverHeaderLinks}`}
                     onClick={toggleMenu}>
                 {link.label}
               </Link>

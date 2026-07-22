@@ -1,3 +1,4 @@
+'use client'
 import {MapPinIcon,PhoneIcon, EnvelopeIcon} from '@phosphor-icons/react'
 export const contacts = [
   {
