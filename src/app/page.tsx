@@ -1,3 +1,5 @@
+import Mission from "@/app/components/Mission";
+
 export default function Home() {
   return(
       <>
@@ -7,8 +9,8 @@ export default function Home() {
 
 
 
+        <Mission/>
 
-
-        Hello World!</>
+        </>
   )
 }
