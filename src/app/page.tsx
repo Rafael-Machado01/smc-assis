@@ -1,6 +1,12 @@
 import Mission from "@/app/components/Mission";
 import History from "@/app/components/History";
-import Depoiment from "@/app/components/Depoiment"
+import Depoiment from "@/app/components/Depoiment";
+import {Metadata} from "next";
+
+export const metadata: Metadata = {
+  title: "Home - AssisTáArte",
+  description: "Projeto da Secretaria de Cultura de Assis"
+}
 
 export default function Home() {
   return(
