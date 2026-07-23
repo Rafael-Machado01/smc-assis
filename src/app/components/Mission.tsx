@@ -1,0 +1,37 @@
+"use client"
+import {missionDataStats} from "@/app/constants/mission-data-stats";
+
+export default function Mission() {
+  return (
+    <section className="text-center py-16 px-6 transition-colors duration-300" id="explorer">
+      <div className="max-w-3xl mx-auto">
+      <span className="inline-flex items-center gap-2 text-lg font-semibold text-blue-700 dark:text-blue-400">
+        <i className="fa-solid fa-book-open"></i>
+        Nossa Missão
+      </span>
+
+        <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-gray-800 dark:text-gray-100">
+          Escolas de Artes Semearte e Assis Tá Arte
+        </h2>
+        <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
+          Promovemos a inclusão cultural atendendo pessoas de todas as idades, especialmente
+          dos bairros mais distantes. Com transporte oferecido pela Secretaria Municipal de
+          Cultura, nossos cursos de Ballet, Capoeira e Circo incentivam a socialização, a
+          vivência em grupo e o desenvolvimento de valores como arte, caráter e cidadania.
+        </p>
+      </div>
+      <div className="flex  p-2 mt-6 flex-wrap justify-center gap-10 text-gray-800 dark:text-gray-100">
+        {missionDataStats.map((mission) => {
+         const MIcon = mission.icon
+          return(
+            <div key={mission.stat} className="flex flex-col items-center">
+              <MIcon className="text-blue-600 dark:text-blue-400 mb-2 " size={48}/>
+                <h2 className="text-2xl font-bold">{mission.stat}</h2>
+                <p className="text-sm">{mission.label}</p>
+            </div>
+          )
+        })}
+      </div>
+    </section>
+      )
+      }
