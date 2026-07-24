@@ -1,16 +1,18 @@
 "use client"
 import {missionDataStats} from "@/app/constants/mission-data-stats";
+import {BookBookmarkIcon} from "@phosphor-icons/react";
+import {tailwindStyles} from "@/app/constants/styles/tailwind"
 
 export default function Mission() {
   return (
     <section className="text-center py-16 px-6 transition-colors duration-300" id="explorer">
       <div className="max-w-3xl mx-auto">
-      <span className="inline-flex items-center gap-2 text-lg font-semibold text-blue-700 dark:text-blue-400">
-        <i className="fa-solid fa-book-open"></i>
+      <span className={tailwindStyles.spanSection}>
+       <BookBookmarkIcon size={18}/>
         Nossa Missão
       </span>
 
-        <h2 className="text-3xl md:text-4xl font-bold mt-4 mb-6 text-gray-800 dark:text-gray-100">
+        <h2 className={tailwindStyles.titleSection}>
           Escolas de Artes Semearte e Assis Tá Arte
         </h2>
         <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
