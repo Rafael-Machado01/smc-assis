@@ -13,7 +13,7 @@ export const carrouselData = [
     icon: FlowerIcon,
     description:
       "O ballet desenvolve equilíbrio, postura e expressão corporal, estimulando disciplina e sensibilidade artística. É uma arte que une força, leveza e emoção em cada movimento.",
-    urlImage: "/ballet.png",
+    urlImage: "/carrousel/ballet.png",
     alt: "Apresentação de Ballet",
     urlButton: "",
     color: "text-pink-500",
@@ -25,7 +25,7 @@ export const carrouselData = [
     icon: MaskHappyIcon,
     description:
       "O teatro desperta criatividade e comunicação, ajudando na expressão das emoções e no trabalho em equipe. Cada personagem representa uma nova forma de ver o mundo.",
-    urlImage: "/teatro.png",
+    urlImage: "/carrousel/teatro.png",
     alt: "Apresentação de Teatro",
     urlButton: "",
     color: "text-purple-500",
@@ -37,7 +37,7 @@ export const carrouselData = [
     icon: TentIcon,
     description:
       "O circo encanta com acrobacias, equilíbrio e alegria. Estimula a confiança, coordenação e superação de limites, sempre com muita diversão e criatividade.",
-    urlImage: "/circo.png",
+    urlImage: "/carrousel/circo.png",
     alt: "Apresentação de Circo",
     urlButton: "",
     color: "text-red-500",
@@ -49,7 +49,7 @@ export const carrouselData = [
     icon: PencilIcon,
     description:
       "O desenho estimula a imaginação, a paciência e a percepção visual. Uma forma de transformar ideias e sentimentos em arte através das cores e traços.",
-    urlImage: "/desenho.png",
+    urlImage: "/carrousel/desenho.png",
     alt: "Apresentação de Desenho e Pintura",
     urlButton: "",
     color: "text-yellow-500",
@@ -61,7 +61,7 @@ export const carrouselData = [
     icon: GuitarIcon,
     description:
       "A música desperta emoções, melhora a concentração e incentiva a sensibilidade. Aprender um instrumento é um caminho de autoconhecimento e expressão pessoal.",
-    urlImage: "/violao.png",
+    urlImage: "/carrousel/violao.png",
     alt: "Apresentação de Violão",
     urlButton: "",
     color: "text-orange-500",
@@ -73,7 +73,7 @@ export const carrouselData = [
     icon: PersonSimpleRunIcon,
     description:
       "A capoeira combina luta, dança e música em uma expressão cultural única. Promove disciplina, agilidade e respeito às tradições afro-brasileiras.",
-    urlImage: "/capoeira.png",
+    urlImage: "/carrousel/capoeira.png",
     alt: "Apresentação de Capoeira",
     urlButton: "",
     color: "text-green-500",

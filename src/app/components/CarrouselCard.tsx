@@ -1,16 +1,19 @@
 import Image from "next/image";
 import Link from "next/link";
 import { carrouselData } from "@/app/constants/carrousel-data";
+import CarrouselButton from "@/app/components/CarrouselButton"
+import {useState} from "react";
 
 export default function CarrouselCard() {
+
+
   return (
     <>
       {carrouselData.map((data) => {
         const CIcon = data.icon;
-
         return (
           <div key={data.curse} className="bg-gray-50 shadow-lg w-[250px] sm:w-[280px] md:w-[400px] flex-shrink-0  dark:bg-gray-900 rounded-lg flex flex-col">
-            <Image src={data.urlImage} alt={data.alt} width={400} height={300} className="rounded-t-lg"/>
+            <Image src={data.urlImage} alt={data.alt} width={400} height={300} className="h-[300px] rounded-t-lg"/>
             <h2 className={`${data.color} font-medium text-2xl my-4 flex items-center justify-center gap-2`}>
               <CIcon size={32} weight="fill" />
               {data.curse}
