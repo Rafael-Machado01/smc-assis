@@ -1,12 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { carrouselData } from "@/app/constants/carrousel-data";
-import CarrouselButton from "@/app/components/CarrouselButton"
-import {useState} from "react";
+
 
 export default function CarrouselCard() {
-
-
   return (
     <>
       {carrouselData.map((data) => {
