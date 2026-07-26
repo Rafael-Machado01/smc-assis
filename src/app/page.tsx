@@ -1,6 +1,7 @@
 import Mission from "@/app/components/Mission";
 import History from "@/app/components/History";
 import Depoiment from "@/app/components/Depoiment";
+import Carrousel from "@/app/components/Carrousel";
 import {Metadata} from "next";
 
 export const metadata: Metadata = {
@@ -18,6 +19,7 @@ export default function Home() {
 
 
         <Mission/>
+        <Carrousel/>
         <History/>
         <Depoiment/>
         </main>
