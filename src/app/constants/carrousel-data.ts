@@ -15,7 +15,7 @@ export const carrouselData = [
       "O ballet desenvolve equilíbrio, postura e expressão corporal, estimulando disciplina e sensibilidade artística. É uma arte que une força, leveza e emoção em cada movimento.",
     urlImage: "/carrousel/ballet.png",
     alt: "Apresentação de Ballet",
-    urlButton: "",
+    urlButton: "/course/1",
     color: "text-pink-500",
     colorButton:
       "bg-pink-500 hover:bg-pink-600 dark:bg-pink-600 dark:hover:bg-pink-700",
@@ -27,7 +27,7 @@ export const carrouselData = [
       "O teatro desperta criatividade e comunicação, ajudando na expressão das emoções e no trabalho em equipe. Cada personagem representa uma nova forma de ver o mundo.",
     urlImage: "/carrousel/teatro.png",
     alt: "Apresentação de Teatro",
-    urlButton: "",
+    urlButton: "/course/5",
     color: "text-purple-500",
     colorButton:
       "bg-purple-500 hover:bg-purple-600 dark:bg-purple-600 dark:hover:bg-purple-700",
@@ -39,7 +39,7 @@ export const carrouselData = [
       "O circo encanta com acrobacias, equilíbrio e alegria. Estimula a confiança, coordenação e superação de limites, sempre com muita diversão e criatividade.",
     urlImage: "/carrousel/circo.png",
     alt: "Apresentação de Circo",
-    urlButton: "",
+    urlButton: "/course/3",
     color: "text-red-500",
     colorButton:
       "bg-red-500 hover:bg-red-600 dark:bg-red-600 dark:hover:bg-red-700",
@@ -51,7 +51,7 @@ export const carrouselData = [
       "O desenho estimula a imaginação, a paciência e a percepção visual. Uma forma de transformar ideias e sentimentos em arte através das cores e traços.",
     urlImage: "/carrousel/desenho.png",
     alt: "Apresentação de Desenho e Pintura",
-    urlButton: "",
+    urlButton: "/course/4",
     color: "text-yellow-500",
     colorButton:
       "bg-yellow-500 hover:bg-yellow-600 dark:bg-yellow-600 dark:hover:bg-yellow-700",
@@ -63,7 +63,7 @@ export const carrouselData = [
       "A música desperta emoções, melhora a concentração e incentiva a sensibilidade. Aprender um instrumento é um caminho de autoconhecimento e expressão pessoal.",
     urlImage: "/carrousel/violao.png",
     alt: "Apresentação de Violão",
-    urlButton: "",
+    urlButton: "/course/5",
     color: "text-orange-500",
     colorButton:
       "bg-orange-500 hover:bg-orange-600 dark:bg-orange-600 dark:hover:bg-orange-700",
@@ -75,7 +75,7 @@ export const carrouselData = [
       "A capoeira combina luta, dança e música em uma expressão cultural única. Promove disciplina, agilidade e respeito às tradições afro-brasileiras.",
     urlImage: "/carrousel/capoeira.png",
     alt: "Apresentação de Capoeira",
-    urlButton: "",
+    urlButton: "/course/2",
     color: "text-green-500",
     colorButton:
       "bg-green-500 hover:bg-green-600 dark:bg-green-600 dark:hover:bg-green-700",

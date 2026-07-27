@@ -8,7 +8,7 @@ import {tailwindStyles} from "@/app/constants/styles/tailwind"
 export default function Footer() {
   return (
 
-    <footer className="bg-slate-50  shadow-lg dark:bg-slate-900 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 ">
+    <footer className="bg-slate-50  shadow-lg dark:bg-slate-900 p-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16 " id="footer">
       <div className="flex items-start gap-6">
         <div className="flex flex-col items-center md:items-start">
           <Image src="/logo.png" alt="Logo da Secretaria de Cultura" width={150} height={65}

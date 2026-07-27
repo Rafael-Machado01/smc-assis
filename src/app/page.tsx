@@ -12,12 +12,6 @@ export const metadata: Metadata = {
 export default function Home() {
   return(
       <main className="px-12 mt-20">
-        <br/>
-        <br/>
-        <br/><br/><br/><br/><br/>
-
-
-
         <Mission/>
         <Carrousel/>
         <History/>
