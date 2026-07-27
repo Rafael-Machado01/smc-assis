@@ -11,8 +11,8 @@ export default function Benefits({id} : {id: number}) {
 
       return(
         <section key={data.id} className="text-center">
-          <span className={tailwindStyles.spanSection}>Inspire-se
-          <SpanIcon size={18}/>
+          <span className={`${tailwindStyles.spanSection} ${data.textColor}`}><SpanIcon size={18}/>
+            Inspire-se
           </span>
           <h2 className={tailwindStyles.titleSection}>Por que fazer {data.name}</h2>
           <div className="flex justify-center">
@@ -20,7 +20,7 @@ export default function Benefits({id} : {id: number}) {
               {data.benefits.map((benefit) => {
                 const BenefitsIcon = benefit.icon
                 return(
-                  <div className={`flex flex-col bg-gray-50 shadow-2xl w-[250px] sm:w-[280px] md:w-[400px] flex-shrink-0 dark:bg-gray-900 rounded-lg p-4 ${data.hoverColor} transition-all duration-500`}>
+                  <div  key={benefit.title} className={`flex flex-col bg-gray-50 shadow-2xl w-[250px] sm:w-[280px] md:w-[400px] flex-shrink-0 dark:bg-gray-900 rounded-lg p-4 ${data.hoverColor} transition-all duration-500`}>
                     <h2 className="flex items-center justify-center"><BenefitsIcon size={30} className={`${data.textColor}  my-2`}/></h2>
                     <h3 className={`${data.textColor} my-2`}>{benefit.title}</h3>
                     <p className="my-2">{benefit.description}</p>
