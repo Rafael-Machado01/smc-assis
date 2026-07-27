@@ -20,7 +20,7 @@ export default function Carrousel() {
   }
 
   return(
-    <section className="mt-16 text-center">
+    <section className="mt-16 text-center" id="courses">
        <span className={tailwindStyles.spanSection}>
         <GraduationCapIcon size={18}/>
         Encontre o seu Talento

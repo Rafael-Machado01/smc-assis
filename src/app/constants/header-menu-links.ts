@@ -5,7 +5,7 @@ export const headerMenuLinks = [
   },
   {
     label: "Cursos",
-    href: "#curses"
+    href: "#courses"
   },
   {
     label: "Contatos",

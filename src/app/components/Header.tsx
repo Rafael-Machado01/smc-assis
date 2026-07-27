@@ -37,8 +37,9 @@ export default function Header() {
     <nav className="container mx-auto px-4">
       <div className="flex items-center justify-between">
 
-        <Image src="/logo.png" alt="Logo da Secretaria de Cultura de Assis" width={300} height={130} className="w-45 md:w-82" />
-
+        <Link href={"/"}>
+        <Image  loading="eager" src="/logo.png" alt="Logo da Secretaria de Cultura de Assis" width={300} height={130} className="w-45 md:w-82" />
+    </Link>
         <div className="flex items-center gap-4">
 
           <button className={tailwindStyles.hoverHeaderLinks} onClick={changeTheme}>

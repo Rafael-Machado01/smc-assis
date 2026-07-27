@@ -20,7 +20,7 @@ export default function Teachers({id}: {id: number})  {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-11">
               {data.teachers.map((teacher) => (
                 <div key={teacher.name} className="flex flex-col my-2">
-                  <Image src={teacher.photo} width={200} height={200} className="hover:scale-110 duration-300 shadow-xl rounded-full object-cover" alt={`Foto do Professor ${teacher.name}`}/>
+                  <Image src={teacher.photo} width={200} height={200} className="w-[200px] h-[200px] object-cover rounded-full hover:scale-110 transition-transform duration-300" alt={`Foto do Professor ${teacher.name}`}/>
                   <h4 className={`text-2xl my-2 ${data.textColor} font-medium`}>{teacher.name}</h4>
                 </div>
               ))}

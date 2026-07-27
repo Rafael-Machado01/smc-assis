@@ -1,17 +1,21 @@
-"use client"
-import Benefits from "@/app/components/Benefits";
-import Teachers from "@/app/components/Teachers";
+import CursePage from '@/app/components/CursePage'
+import {coursesData} from "@/app/constants/courses-data";
+import {Metadata} from "next";
 import {useParams} from "next/navigation";
 
 
+const params = useParams()
+const id = Number(params.id)
 
-export default function CoursePage() {
-  const params = useParams()
-  const id = Number(params.id)
+const nameCourse = coursesData.find(course => course.id === id)
+export const metadata: Metadata = {
+  title: "Home - AssisTáArte",
+  description: "Projeto da Secretaria de Cultura de Assis"
+}
+
+
+export default function Page() {
   return(
-    <main className="px-12 mt-20">
-    <Benefits id={id}/>
-      <Teachers id={id}/>
-    </main>
+    <CursePage/>
   )
 }

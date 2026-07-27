@@ -44,23 +44,23 @@ export const coursesData = [
     teachers: [
       {
         name: "Fabiana Alves",
-        photo: "/teachers/fabiana-alves",
+        photo: "/teachers/fabiana.jpg",
       },
       {
         name: "Jéssica Racanelli",
-        photo: "/teachers/jessica-racanelli",
+        photo: "/teachers/jessica.jpg",
       },
       {
         name: "Renata Kill",
-        photo: "/teachers/renata-kill",
+        photo: "/teachers/renata.jpg",
       },
       {
         name: "Ricardo Orso",
-        photo: "/teachers/ricardo-orso",
+        photo: "/teachers/ricardo.jpg",
       },
       {
         name: "Danilo Alves",
-        photo: "/teachers/danilo-alves",
+        photo: "/teachers/danilo.jpg",
       },
     ],
   },
@@ -94,7 +94,7 @@ export const coursesData = [
     teachers: [
       {
         name: "Marcos Rodrigues",
-        photo: "/teachers/marcos-rodrigues",
+        photo: "/teachers/marcos.jpg",
       },
     ],
   },
@@ -128,11 +128,10 @@ export const coursesData = [
     teachers: [
       {
         name: "Luciana Gomes",
-        photo: "/teachers/luciana-gomes",
+        photo: "/teachers/luciana.jpg",
       },
     ],
   },
-
   {
     id: 4,
     name: "Desenho e Pintura",
@@ -162,7 +161,7 @@ export const coursesData = [
     teachers: [
       {
         name: "Valéria Scaramboni",
-        photo: "/teachers/valeria-scaramboni",
+        photo: "/teachers/valeria.jpg",
       },
     ],
   },
@@ -196,11 +195,10 @@ export const coursesData = [
     teachers: [
       {
         name: "Ricardo Bagge",
-        photo: "/teachers/ricardo-bagge",
+        photo: "/teachers/bagge.jpg",
       },
     ],
   },
-
   {
     id: 6,
     name: "Violão",
@@ -230,15 +228,15 @@ export const coursesData = [
     teachers: [
       {
         name: "Flavia L'erario",
-        photo: "/teachers/flavia-lerario",
+        photo: "/teachers/flavia.jpg",
       },
       {
         name: "Rafael de Oliveira",
-        photo: "/teachers/rafael-de-oliveira",
+        photo: "/teachers/rafael.jpg",
       },
       {
         name: "Nelson Bernardes",
-        photo: "/teachers/nelson-bernardes",
+        photo: "/teachers/nelson.jpg",
       },
     ],
   },
